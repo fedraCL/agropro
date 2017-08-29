@@ -6,8 +6,7 @@ gem "nokogiri", ">= 1.6.7.rc"
 #google maps
 gem 'gmaps4rails'
 
-#bundler
-gem 'bundler'
+
 #paginacion
 gem 'kaminari'
 gem 'kaminari-bootstrap'
