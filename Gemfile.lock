@@ -139,7 +139,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler
   cancancan (~> 1.10)
   coffee-rails (~> 4.0.0)
   devise
