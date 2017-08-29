@@ -1,0 +1,18 @@
+Actualizar a la 06:00
+
+- ETA 
+- ETD 
+
+fechas dd/mm/yyyy
+
+Agregar port 
+
+NYKU2614291
+
+
+sailing information
+
+
+primera fila ETD = Departure Date
+ultima fila ETA = Arrival Time
+

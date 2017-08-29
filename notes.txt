@@ -1,0 +1,26 @@
+websphere.cell=PSCell1 
+websphere.node=node2
+websphere.server=server1
+websphere.cluster=
+websphere.commandPath=/opt/IBM/WebSphere85/AppServer/profiles/Node1Profile/bin/wsadmin.sh
+websphere.user=
+websphere.host=localhost
+websphere.port=8881
+
+
+
+ZXQY3_112
+
+
+linode-Centos1 45.79.82.119  root:3htp.com2017
+linode-Centos2 45.33.40.28  root:3htp.com2017
+
+
+
+
+postgres@sglea:~$ psql
+postgres=# CREATE USER lramirez password '123123';
+postgres=# CREATE DATABASE lramirez owner=lramirez;
+postgres=# \q
+
+

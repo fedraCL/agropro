@@ -1,0 +1,45 @@
+<h1>Listing seguimiento_historials</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id origen</th>
+      <th>Codigo</th>
+      <th>Naviera</th>
+      <th>Nave</th>
+      <th>Pol</th>
+      <th>Pod</th>
+      <th>Etd</th>
+      <th>Eta</th>
+      <th>Countchange</th>
+      <th>User</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @seguimiento_historials.each do |seguimiento_historial| %>
+      <tr>
+        <td><%= seguimiento_historial.id_origen %></td>
+        <td><%= seguimiento_historial.codigo %></td>
+        <td><%= seguimiento_historial.naviera %></td>
+        <td><%= seguimiento_historial.nave %></td>
+        <td><%= seguimiento_historial.pol %></td>
+        <td><%= seguimiento_historial.pod %></td>
+        <td><%= seguimiento_historial.etd %></td>
+        <td><%= seguimiento_historial.eta %></td>
+        <td><%= seguimiento_historial.countchange %></td>
+        <td><%= seguimiento_historial.user %></td>
+        <td><%= link_to 'Show', seguimiento_historial %></td>
+        <td><%= link_to 'Edit', edit_seguimiento_historial_path(seguimiento_historial) %></td>
+        <td><%= link_to 'Destroy', seguimiento_historial, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Seguimiento historial', new_seguimiento_historial_path %>

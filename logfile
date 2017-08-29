@@ -1,0 +1,9 @@
+LOG:  database system was shut down at 2017-04-23 23:45:54 -04
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
+FATAL:  database "smart_track" does not exist
+FATAL:  database "smart_track" does not exist
+FATAL:  database "lramirez" does not exist
+ERROR:  database "smart_track" already exists
+STATEMENT:  CREATE DATABASE "smart_track" ENCODING = 'utf8'

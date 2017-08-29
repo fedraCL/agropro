@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_origen: 1
+  codigo: MyString
+  naviera: MyString
+  nave: MyString
+  pol: MyString
+  pod: MyString
+  etd: MyString
+  eta: MyString
+  countchange: 1
+  user: MyString
+
+two:
+  id_origen: 1
+  codigo: MyString
+  naviera: MyString
+  nave: MyString
+  pol: MyString
+  pod: MyString
+  etd: MyString
+  eta: MyString
+  countchange: 1
+  user: MyString
