@@ -1,4 +1,10 @@
 Treebook::Application.routes.draw do
+  resources :cuarteles
+
+  resources :campos
+
+  resources :personas
+
   resources :seguimiento_historials
 
   resources :rols

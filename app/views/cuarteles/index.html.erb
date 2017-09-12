@@ -1,0 +1,27 @@
+<h1>Listing cuarteles</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @cuarteles.each do |cuartele| %>
+      <tr>
+        <td><%= cuartele.nombre %></td>
+        <td><%= link_to 'Show', cuartele %></td>
+        <td><%= link_to 'Edit', edit_cuartele_path(cuartele) %></td>
+        <td><%= link_to 'Destroy', cuartele, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Cuartele', new_cuartele_path %>

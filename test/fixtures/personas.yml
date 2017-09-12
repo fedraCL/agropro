@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rut: MyString
+  dv: MyString
+  tipo: MyString
+  estado: MyString
+  razonsocial: MyString
+  alias: MyString
+  nacionalidad: MyString
+  direccion: MyString
+  email: MyString
+  contacto: MyString
+  user: MyString
+
+two:
+  rut: MyString
+  dv: MyString
+  tipo: MyString
+  estado: MyString
+  razonsocial: MyString
+  alias: MyString
+  nacionalidad: MyString
+  direccion: MyString
+  email: MyString
+  contacto: MyString
+  user: MyString

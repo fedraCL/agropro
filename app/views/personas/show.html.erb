@@ -1,0 +1,70 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Rut:</strong>
+  <%= @persona.rut %>
+</p>
+
+<p>
+  <strong>Dv:</strong>
+  <%= @persona.dv %>
+</p>
+
+<p>
+  <strong>Tipo:</strong>
+  <%= @persona.tipo %>
+</p>
+
+<p>
+  <strong>Estado:</strong>
+  <%= @persona.estado %>
+</p>
+
+<p>
+  <strong>Razonsocial:</strong>
+  <%= @persona.razonsocial %>
+</p>
+
+<p>
+  <strong>Alias:</strong>
+  <%= @persona.alias %>
+</p>
+
+<p>
+  <strong>Nacionalidad:</strong>
+  <%= @persona.nacionalidad %>
+</p>
+
+<p>
+  <strong>Direccion:</strong>
+  <%= @persona.direccion %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @persona.email %>
+</p>
+
+<p>
+  <strong>Contacto:</strong>
+  <%= @persona.contacto %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @persona.user %>
+</p>
+
+<h2>campos </h2>
+
+<% @persona.campos.each do |campo| %>
+<p>
+  <strong>Nombre Campo:</strong>
+  <%= campo.nombre %>
+</p>
+<%end%>
+
+
+
+<%= link_to 'Edit', edit_persona_path(@persona) %> |
+<%= link_to 'Back', personas_path %>

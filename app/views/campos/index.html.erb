@@ -1,0 +1,27 @@
+<h1>Listing campos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @campos.each do |campo| %>
+      <tr>
+        <td><%= campo.nombre %></td>
+        <td><%= link_to 'Show', campo %></td>
+        <td><%= link_to 'Edit', edit_campo_path(campo) %></td>
+        <td><%= link_to 'Destroy', campo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Campo', new_campo_path %>

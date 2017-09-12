@@ -1,0 +1,48 @@
+<%= simple_form_for(@persona) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+	  
+	  <table>
+	  	<tr>
+	  		<td>RUT</td>
+			<td><%= f.text_field:rut %></td>
+			<td>DV</td>
+			<td><%= f.text_field:dv %></td>
+			<td>Tipo</td>
+			<td><%= manten f, :tipo, Mantenedor.tipo_personas, 'Seleccione Tipo de Persona'%></td>
+			<td>ESTADO</td>
+			<td><%= f.text_field:estado %></td>
+	  	</tr>
+	  	<tr>
+	  		<td>Razon Social</td>
+			<td><%= f.text_field:razonsocial %></td>
+			<td>Alias</td>
+			<td><%= f.text_field:alias %></td>
+			<td>Nacionalidad</td>
+			<td><%= manten f, :tipo, Mantenedor.paises, 'Seleccione País'%></td>
+			<td>Dirección</td>
+			<td><%= f.text_field:direccion %></td>
+	  	</tr>
+	  	<tr>
+	  		<td>E-Mail</td>
+			<td><%= f.text_field:email %></td>
+			<td>Contacto</td>
+			<td><%= f.text_field:contacto %></td>
+			<td>Usuario</td>
+			<td><%= f.text_field:user %></td>
+			
+	  	</tr>
+	  </table>
+    
+    
+    
+   
+   
+
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
